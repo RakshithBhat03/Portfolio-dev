@@ -43,7 +43,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "FULL STACK DEVELOPER BUILDING SCALABLE WEB APPS WITH AI INTEGRATION",
+  subTitle:
+    "FULL STACK DEVELOPER BUILDING SCALABLE WEB APPS WITH AI INTEGRATION",
   skills: [
     emoji(
       "⚡ Build responsive, interactive front-end interfaces with React, TypeScript and modern CSS frameworks"
@@ -264,7 +265,9 @@ const blogSection = {
 
 const talkSection = {
   title: "TALKS",
-  subtitle: emoji("I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE"),
+  subtitle: emoji(
+    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE"
+  ),
   talks: [],
   display: false
 };
