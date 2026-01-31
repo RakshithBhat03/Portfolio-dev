@@ -42,7 +42,7 @@ export default function Twitter() {
               key={isDark ? "1" : "2"}
               theme={isDark ? "dark" : "light"}
               noFooter={true}
-              onload={timeOut()}
+              onLoad={timeOut}
             />
           </div>
         </div>

@@ -22,8 +22,9 @@ import {useLocalStorage} from "../hooks/useLocalStorage";
 import "./Main.scss";
 
 const Main = () => {
+  // eslint-disable-next-line no-unused-vars
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
-  const [isDark, setIsDark] = useLocalStorage("isDark", darkPref.matches);
+  const [isDark, setIsDark] = useLocalStorage("isDark", false);
   const [isShowingSplashAnimation, setIsShowingSplashAnimation] =
     useState(true);
 
