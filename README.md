@@ -13,7 +13,7 @@ A clean, beautiful and responsive portfolio template for developers built with R
 
 ```bash
 # Clone this repository
-git clone https://github.com/saadpasta/developerFolio.git
+git clone https://github.com/RakshithBhat03/Portfolio-dev
 
 # Go into the repository
 cd developerFolio
